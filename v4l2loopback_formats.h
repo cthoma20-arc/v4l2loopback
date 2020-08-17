@@ -279,6 +279,14 @@
 		.flags = FORMAT_FLAGS_PLANAR,
 	},
 #endif /* V4L2_PIX_FMT_NV12 */
+#ifdef V4L2_PIX_FMT_Z16
+    {
+        .name = "Depth data 16-bit",
+        .fourcc = V4L2_PIX_FMT_Z16,
+        .depth = 16,
+        .flags = FORMAT_FLAGS_PLANAR
+    },
+#endif
 
 /* here come the compressed formats */
 
